@@ -63,7 +63,7 @@ Ejemplo:
 ## Buena practica: Indentación
 
 Es la practica recomendada para marcar la jerarquia (quien en padre de quien) en el codigo HTML
-El hijo debera tener 1 tabulacion respecto al padre
+\n El hijo debera tener 1 tabulacion respecto al padre
 1 Tabulacion es igual a una x cantidad de espacios
 
 <padre>
