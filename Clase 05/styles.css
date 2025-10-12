@@ -58,7 +58,7 @@ p{
 
 /* 
 inline: 
-    Los elementos el linea no pueden tener ancho o alto personalizados
+    Los elementos en linea no pueden tener ancho o alto personalizados
     Se pueden acomodar sobre una misma linea
     Ejemplos:
         a, span, label, b, strong, em, i
@@ -116,7 +116,9 @@ inline-block:
     /* Hacer un circulo */
     /* border-radius: 50%; */
 
-    box-shadow: 0px 10px 10px 0 black;
+    /* Sombra a las cajas*/
+
+    box-shadow: 0 10px 10px 0 black;
 }
 
 .video-yt{
