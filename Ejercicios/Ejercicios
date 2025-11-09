@@ -1,0 +1,98 @@
+# Práctica de JavaScript 2
+
+---
+
+## Ejercicios básicos
+
+1. Imprime los números del 1 al 10
+2. Imprime los números pares del 2 al 20
+3. Imprime los números impares del 1 al 19
+4. Imprime los números del 10 al 1 en orden inverso
+5. Imprime los números del 1 al 10, pero se detiene al llegar al 5
+6. Imprime los números del 1 al 10, pero salta el 5
+
+---
+
+## Funciones simples
+
+7. Crea una función llamada `decirNombre(nombre)` y ejecuta una alerta `"Hola " + nombre`
+8. Crea una función llamada `saludar(nombre)` y devuelve un string `"Hola " + nombre`, luego invoca la función dentro de una alerta
+9. Crea una función llamada `sumar(a, b)` que devuelva la suma de `a` y `b`
+10. Crea una función llamada `restar(a, b)` que devuelva la resta de `a` y `b`
+11. Crea una función llamada `calcular(operación, a, b)` que:
+
+- Si la operación es `"+"` o `"-"`, invoque `sumar(a,b)` o `restar(a,b)`
+- Retorne el resultado
+- En caso de recibir una operación no válida, devuelva `null`
+
+12. Crea una función llamada `contarHasta(número)` que cuente hasta ese número por consola
+13. Crea una calculadora interactiva:
+    - Pregunta al usuario si desea usar la calculadora.
+    - Mientras la respuesta sea `"SI"`, solicita dos números y una operación.
+    - Usa `calcular` para mostrar el resultado por alerta.
+    - Si el usuario responde algo distinto a “SI”, muestra `"El programa ha finalizado"`.
+
+---
+
+## Ejercicios con ciclos y condiciones
+
+14. Hacer un programa que imprima 25 términos de la serie `11 - 22 - 33 - 44 - 55 - 66...`
+15. Hacer un programa que permita cargar 5 números enteros e informe cuántos son pares y cuántos impares.
+16. Hacer un programa donde se ingresen 5 alturas de personas y mostrar la altura promedio.
+
+---
+
+## Ejercicio de promedios por turno
+
+17. Se cuenta con la siguiente información:
+
+- 5 estudiantes del turno mañana
+- 6 del turno tarde
+- 11 del turno noche
+
+Las edades deben ingresarse por teclado.
+
+a) Obtener el promedio de cada turno  
+ b) Imprimir los tres promedios  
+ c) Indicar cuál turno tiene el promedio mayor
+
+---
+
+## Ejercicio con valores enteros
+
+18. Se realiza la carga de 10 valores enteros y se desea conocer:  
+    a) Cantidad de negativos  
+    b) Cantidad de positivos  
+    c) Cantidad de múltiplos de 15  
+    d) Suma de los números pares
+
+---
+
+## Ejercicio de triángulos
+
+19. Hacer un programa que lea los lados de 4 triángulos e informe:  
+    a) Tipo de triángulo (equilátero, isósceles o escaleno)  
+    b) Cantidad de triángulos de cada tipo  
+    c) Cuál tipo tiene menor cantidad
+
+---
+
+## Funciones varias
+
+20. Crear una función que pida dos enteros (primero el menor, luego el mayor) y muestre todos los números entre ellos.  
+    **Ejemplo:**  
+    Entrada: `4` y `10` → Salida: `4 5 6 7 8 9 10`
+
+21. Crear una función que reciba tres enteros y retorne el promedio.
+22. Crear una función que solicite 5 valores y retorne su suma.
+23. Crear una función que reciba una palabra y la devuelva con signos de exclamación:  
+    `!palabra!`
+24. Definir una función `obtenerNombreCompleto(nombre, apellido)` que devuelva `"nombre apellido"`.
+25. Definir una función `convertirHorasEnSegundos(horas)` que devuelva el equivalente en segundos.
+26. Definir una función `generarEmail(usuario, dominio)` que devuelva `"usuario@dominio.com"`.
+
+---
+
+## Ejercicios con interacción
+
+27. Crear un programa que pida grados Celsius y muestre la conversión a Fahrenheit.
