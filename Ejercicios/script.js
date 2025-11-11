@@ -40,3 +40,29 @@ for (let cinco = 1; cinco <= 10; cinco++){
     console.log(cinco)
 }
 
+// EJERCICIO 7: Crea una función llamada 'decirNombre(nombre) y ejecuta una alerta `"Hola " + nombre`
+
+function decirNombre(nombre) {
+    alert ("Hola " + nombre)
+}
+
+decirNombre("Ivan")
+decirNombre("Julia")
+
+// EJERCICIO 8: Crea una función llamada 'saludar(nombre)' y devuelve un string `"Hola " + nombre`, luego invoca la función en una alerta
+
+function saludar(nombre) {
+    console.log("Hola " + nombre)
+}
+
+alert(saludar("Iván"));
+
+// EJERCICIO 9: Crea una función llamada `sumar(a,b)`, que devuelva la suma entre a y b
+
+function sumar(a, b) {
+    return a + b;
+} 
+
+console.log(sumar(5,7));
+
+// 
