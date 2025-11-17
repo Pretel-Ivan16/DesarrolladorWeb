@@ -162,3 +162,34 @@ console.log(esElUltimoCaracter("hola", "a")); */
 
 // EJERCICIO 13: Definí una función esValida que tome por parámetro una contraseña (string) y nos indique si tiene 8 caracteres o más.
 
+/* const esValida = (contraseña) => {
+    return contraseña.length >= 8;
+}; */
+
+// EJERCICIO 14: Definí una función contarPalabras que reciba como argumento un string str y devuelva la cantidad de palabras que posee.
+
+/* const contarPalabras = (str) => { 
+    return str.split(" ").length;
+}
+
+console.log(contarPalabras("Buenas tardes señor"));  */
+
+// EJERCICIO 15: Definí una función capitalizar que reciba como argumento un string str y devuelva el mismo string con la primera letra en mayúscula.
+
+/* const capitalizar = (str) => {
+    return str[0].toUpperCase() + str.slice(1);
+}
+
+console.log(capitalizar("hola"));
+console.log(capitalizar("mundo"));
+console.log(capitalizar("iván")); */
+
+// EJERCICIO 16: Definí una función obtenerPrimeraOracion que tome por parámetro un string str y devuelva la primera oración de dicho string.
+
+/* const obtenerPrimeraOracion = (str) => {
+    return str.split(".")[0] + ".";
+};
+
+console.log(obtenerPrimeraOracion("Hola Mundo. ¿Como estás?")); */
+
+// EJERCICIO 17: Definí una función ocultarContrasenia que reciba como argumento una contraseña de solo números y devuelva un string con dicha contraseña ocultada en asteriscos, es decir, un string con la misma la misma longitud donde todos sus caracteres son asteriscos.
